@@ -1,0 +1,21 @@
+{
+    "name": "nix-20th-anniversary-meetups",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "build:css": "postcss src/main.css -o dist/main.css",
+      "build:js": "tsc --build tsconfig.json",
+      "build": "npm run build:css && npm run build:js && cp src/index.html dist/index.html"
+    },
+    "keywords": [],
+    "author": "Domen Kožar",
+    "license": "Apache2",
+    "devDependencies": {
+      "autoprefixer": "^10",
+      "postcss": "^8",
+      "postcss-cli": "^10",
+      "tailwindcss": "^3"
+    }
+  }
+  
