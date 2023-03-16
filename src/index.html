@@ -5,20 +5,91 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="main.css">
   <script defer src="script.js"></script>
-  <title>Nix 20th Anniversary Meetups</title>
+  <title>20 Years of Nix</title>
+  <style>
+    .bg-custom-blue {
+      background-color: #6586c8;
+    }
+    .text-almost-black {
+      color: #222;
+    }
+    .footer {
+      background-color: #27385d;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      height: 100px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      text-align: center;
+      padding: 0 20px;
+    }
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #27385d;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+    .button:hover {
+      background-color: #3b4a70;
+    }
+    .social-links {
+      margin: auto auto;
+    }
+    .social-links a {
+      margin-right: 15px;
+    }
+  </style>
 </head>
-<body class="font-sans bg-white">
-  <header class="bg-blue-600 text-white py-6">
-    <div class="container mx-auto">
-      <h1 class="text-4xl font-semibold mb-4">Nix 20th Anniversary Meetups</h1>
+<body class="font-sans bg-custom-blue">
+  <header class="bg-white text-almost-black py-8">
+    <div class="container mx-auto text-center">
+      <h1 class="text-4xl font-semibold mb-4">20 Years of Nix</h1>
+      <p class="text-lg mb-2">
+        It's been an incredible 20 years since Nix was created.
+      </p>
+      <p class="text-lg mb-2">
+        It's time to meet other Nixers and celebrate this remarkable journey together!
+      </p>
+      <p class="text-lg mb-6">
+        Join us in commemorating the past and envisioning the future of Nix.
+      </p>
       <nav>
-        <a class="text-white mr-4 hover:underline" href="https://example.com/new-meetup-form">Add a Meetup</a>
-        <a class="text-white hover:underline" href="https://example.com/sponsor">NixOS Foundation event funding</a>
+        <a class="button mr-4" href="https://commotion.page/embed/20th-anniversary">Add a Meetup</a>
+        <a class="button" href="https://nixos.org/community/event-funding.html">Fund your event</a>
       </nav>
     </div>
   </header>
-  <main class="container mx-auto py-8 px-4">
-    <div id="meetups" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+  <main class="container mx-auto py-8 px-4 text-center">
+    <div id="meetups"></div>
   </main>
+  <footer class="footer">
+    <div class="social-links">
+      <a href="https://twitter.com/nixos_org">
+        <svg xmlns="http://www.w3.org/2000/svg" class="inline" width="40" height="40" fill="white" class="bi bi-twitter" viewBox="0 0 16 16">
+          <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+        </svg>
+      </a>
+
+      <a href="https://github.com/NixOS">
+        <svg xmlns="http://www.w3.org/2000/svg" class="inline" width="40" height="40" fill="white" class="bi bi-github" viewBox="0 0 16 16">
+          <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+        </svg>
+      </a>
+
+      <a href="https://matrix.to/#/#nix:nixos.org">
+        <svg xmlns="http://www.w3.org/2000/svg" class="inline" fill="white" viewBox="0 0 50 50" width="40" height="40"><path d="M 5 5 A 1.0001 1.0001 0 0 0 4 6 L 4 44 A 1.0001 1.0001 0 0 0 5 45 L 8 45 A 1.0001 1.0001 0 1 0 8 43 L 6 43 L 6 7 L 8 7 A 1.0001 1.0001 0 1 0 8 5 L 5 5 z M 42 5 A 1.0001 1.0001 0 1 0 42 7 L 44 7 L 44 43 L 42 43 A 1.0001 1.0001 0 1 0 42 45 L 45 45 A 1.0001 1.0001 0 0 0 46 44 L 46 6 A 1.0001 1.0001 0 0 0 45 5 L 42 5 z M 31.074219 17.509766 C 29.975744 17.487506 28.868391 17.760297 27.978516 18.373047 C 27.407516 18.767047 26.915609 19.272813 26.349609 19.757812 C 25.488609 18.039813 23.929344 17.580781 22.152344 17.550781 C 20.351344 17.519781 18.920922 18.341797 17.669922 19.841797 L 17.669922 18 L 14 18 L 14 32 L 17.664062 32 C 17.664062 32 17.657969 26.766016 17.667969 24.166016 C 17.669969 23.704016 17.689203 23.23225 17.783203 22.78125 C 18.073203 21.39225 19.538031 20.534437 20.957031 20.648438 C 22.309031 20.757437 23.100016 21.495656 23.166016 23.097656 C 23.177016 23.376656 23.166016 32 23.166016 32 L 26.832031 32 L 26.832031 24.228516 C 26.838031 23.629516 26.901875 23.0175 27.046875 22.4375 C 27.372875 21.1375 28.590531 20.49825 30.019531 20.65625 C 31.279531 20.79525 32.239031 21.474609 32.332031 22.849609 L 32.332031 32 L 36 32 L 36 22 C 36 21 35.746359 20.490859 35.443359 19.880859 C 34.710859 18.405234 32.90501 17.546865 31.074219 17.509766 z"/></svg>
+      </a>
+
+      <a href="https://discord.gg/Djh5ekJJrA">
+
+<svg xmlns="http://www.w3.org/2000/svg" class="inline" fill="white"  viewBox="0 0 48 48" width="40px" height="40px"><path d="M40.6,10.57c-0.02-0.02-0.05-0.04-0.08-0.07c-2.39-1.92-5.59-2.9-7.85-3.37c-2.23-0.47-4.46,0.8-5.18,2.95 c-0.01,0.04-0.03,0.07-0.04,0.11c3.75,0.38,7.1,1.41,9.82,3.02c0.71,0.42,0.94,1.34,0.52,2.06C37.51,15.74,37.01,16,36.5,16 c-0.26,0-0.53-0.07-0.77-0.21c-3.06-1.82-7.12-2.78-11.73-2.78s-8.67,0.96-11.73,2.78c-0.72,0.42-1.64,0.19-2.06-0.52 c-0.42-0.72-0.19-1.64,0.52-2.06c2.72-1.61,6.07-2.64,9.82-3.02c-0.01-0.04-0.03-0.07-0.04-0.11c-0.72-2.15-2.95-3.42-5.18-2.95 C13.07,7.6,9.87,8.58,7.48,10.5c-0.03,0.03-0.06,0.05-0.08,0.07c-2.22,2.06-6.32,12.54-6.32,22.06c0,0.26,0.06,0.51,0.19,0.74 c2.44,4.29,8.19,5.86,10.56,6.33c0.29,0.06,0.58,0.09,0.87,0.09c1.42,0,2.79-0.68,3.64-1.86l0.52-0.71 C11.71,36,9.07,33.8,8.92,33.67c-0.63-0.54-0.71-1.48-0.17-2.11s1.48-0.71,2.11-0.18c0.08,0.07,4.49,3.64,13.14,3.64 c8.69,0,13.1-3.6,13.14-3.64c0.63-0.53,1.58-0.45,2.11,0.19c0.53,0.63,0.46,1.57-0.17,2.1c-0.15,0.13-2.79,2.33-7.94,3.55 l0.52,0.71c0.85,1.18,2.22,1.86,3.64,1.86c0.29,0,0.58-0.03,0.87-0.09c2.37-0.47,8.12-2.04,10.56-6.33 c0.13-0.23,0.19-0.48,0.19-0.74C46.92,23.11,42.82,12.63,40.6,10.57z M17.53,29.92c-1.91,0-3.46-1.77-3.46-3.96S15.62,22,17.53,22 c1.92,0,3.47,1.77,3.47,3.96S19.45,29.92,17.53,29.92z M30.44,30c-1.93,0-3.5-1.79-3.5-4c0-2.21,1.57-4,3.5-4 c1.94,0,3.5,1.79,3.5,4C33.94,28.21,32.38,30,30.44,30z"/></svg>
+      </a>
+    </div>
+  </footer>
 </body>
 </html>

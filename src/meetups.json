@@ -1,0 +1,44 @@
+[
+  {
+    "Name": "NixParty",
+    "Country/City": "Germany/Stuttgart",
+    "Link": "https://pad.lassul.us/NixOS-meetup#2023-03-11-nixparty",
+    "Date": "2023-03-11"
+  },
+  {
+    "Name": "Oslo NixOS Meetup: It's been a while!",
+    "Country/City": "Norway/Oslo",
+    "Link": "https://www.meetup.com/oslo-nixos-user-group/events/291712301/",
+    "Date": "2023-03-11"
+  },
+  {
+    "Name": "Chaostreff Special: #NixParty - Nix 20th Anniversary - March of Nix",
+    "Country/City": "Germany/Backnang",
+    "Link": "https://pad.lassul.us/NixOS-meetup#2023-03-12-nixparty",
+    "Date": "2023-03-12"
+  },
+  {
+    "Name": "Nix(OS) install party",
+    "Country/City": "Moscow, Russia",
+    "Link": "https://discourse.nixos.org/t/2023-03-18-nix-os-install-party-in-moscow/26334",
+    "Date": "2023-03-18"
+  },
+  {
+    "Name": "Nix meetup at TUHH",
+    "Country/City": "Germany/Hamburg",
+    "Link": "https://discourse.nixos.org/t/2023-03-25-saturday-nix-meetup-at-tuhh-hamburg-germany/26057/2",
+    "Date": "2023-03-25"
+  },
+  {
+    "Name": "Nix Hacker Talk at freiheit.com",
+    "Country/City": "Germany/Hamburg",
+    "Link": "https://discourse.nixos.org/t/2023-03-31-friday-nix-hacker-talk-at-freiheit-com-hamburg-germany/26358",
+    "Date": "2023-03-31"
+  },
+  {
+    "Name": "NixOS User Group Zurich",
+    "Country/City": "Switzerland / Zürich",
+    "Link": "https://www.meetup.com/nixos-user-group-zurich/",
+    "Date": "2023-05-27"
+  }
+]

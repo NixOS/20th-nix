@@ -7,6 +7,7 @@
 
 2. Start the processes:
 
+     $ npm install
      $ devenv up
 
 Open http://localhost:5100/
