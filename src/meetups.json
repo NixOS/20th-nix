@@ -18,10 +18,22 @@
     "Date": "2023-03-12"
   },
   {
+    "Name": " NixOS, A Purely Functional Linux Distribution",
+    "Country/City": "Austria/Vienna",
+    "Link": "https://www.meetup.com/papers-we-love-vienna/events/291977783/",
+    "Date": "2023-03-16"
+  },
+  {
     "Name": "Nix(OS) install party",
     "Country/City": "Moscow, Russia",
     "Link": "https://discourse.nixos.org/t/2023-03-18-nix-os-install-party-in-moscow/26334",
     "Date": "2023-03-18"
+  },
+  {
+    "Name": "Nix/NixOS Meetup @ Paris",
+    "Country/City": "France/Paris",
+    "Link": "https://mobilizon.fr/events/53158aa7-4ff4-4340-a2ee-24b44f9e8418",
+    "Date": "2023-03-22"
   },
   {
     "Name": "Nix meetup at TUHH",
