@@ -52,5 +52,11 @@
     "Country/City": "Switzerland / Zürich",
     "Link": "https://www.meetup.com/nixos-user-group-zurich/",
     "Date": "2023-05-27"
+  },
+  {
+    "Name": "The First Nix/NixOS Meetup in Israel",
+    "Country/City": "Israel/Tel Aviv",
+    "Link": "https://israel.nix.ug",
+    "Date": "2023-03-19"
   }
 ]
