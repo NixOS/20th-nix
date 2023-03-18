@@ -5,6 +5,10 @@
   packages = [
     pkgs.nodePackages.ts-node
   ];
+  
+  enterShell = ''
+    npm install
+  '';
 
   scripts.refresh-meetups.exec = "ts-node fetch.ts";
 
