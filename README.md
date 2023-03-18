@@ -1,4 +1,6 @@
-# 20 years of Nix
+# [20 years of Nix](https://20th.nixos.org/)
+
+- [add your meetup](https://commotion.page/embed/20th-anniversary)
 
 
 ## Development
@@ -7,7 +9,9 @@
 
 2. Start the processes:
 
-     $ npm install
-     $ devenv up
+```
+      $ npm install
+      $ devenv up
+```
 
-Open http://localhost:5100/
+3. Open http://localhost:5100/
