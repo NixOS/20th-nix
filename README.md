@@ -10,7 +10,6 @@
 2. Start the processes:
 
 ```
-      $ npm install
       $ devenv up
 ```
 
