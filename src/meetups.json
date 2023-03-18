@@ -1,5 +1,11 @@
 [
   {
+    "Name": "NixOS Vienna",
+    "Country/City": "Vienna, Austria",
+    "Link": "https://metalab.at/wiki/20_years_of_Nix(OS)",
+    "Date": "2023-03-11"
+  },
+  {
     "Name": "NixParty",
     "Country/City": "Germany/Stuttgart",
     "Link": "https://pad.lassul.us/NixOS-meetup#2023-03-11-nixparty",
@@ -22,6 +28,12 @@
     "Country/City": "Austria/Vienna",
     "Link": "https://www.meetup.com/papers-we-love-vienna/events/291977783/",
     "Date": "2023-03-16"
+  },
+  {
+    "Name": "Cleeyv",
+    "Country/City": "Montreal",
+    "Link": "https://kolektiva.social/@cleeyv/110036834495928363",
+    "Date": "2023-03-17"
   },
   {
     "Name": "Nix(OS) install party",
