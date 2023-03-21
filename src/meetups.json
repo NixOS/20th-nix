@@ -54,6 +54,12 @@
     "Date": "2023-03-22"
   },
   {
+    "Name": "Nix 20th - Bay Area Meetup",
+    "Country/City": "USA California, Sunnyvale",
+    "Link": "https://www.eventbrite.com/e/nixos-20th-bay-area-meet-tickets-594999107347",
+    "Date": "2023-03-24"
+  },
+  {
     "Name": "Nix meetup at TUHH",
     "Country/City": "Germany/Hamburg",
     "Link": "https://discourse.nixos.org/t/2023-03-25-saturday-nix-meetup-at-tuhh-hamburg-germany/26057/2",
@@ -67,7 +73,7 @@
   },
   {
     "Name": "NixOS User Group Zurich",
-    "Country/City": "Switzerland / Zürich",
+    "Country/City": "Switzerland/Zürich",
     "Link": "https://www.meetup.com/nixos-user-group-zurich/",
     "Date": "2023-05-27"
   }
