@@ -14,3 +14,9 @@
 ```
 
 3. Open http://localhost:5100/
+
+### Syncing meetups
+
+Assuming you have `NOTION_API_KEY` set:
+
+   $ devenv shell refresh-meetups
