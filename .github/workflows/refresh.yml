@@ -1,0 +1,25 @@
+name: "Refresh meetups"
+
+on:
+  schedule:
+    # every hour
+    - cron: "1 * * * *"
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - uses: cachix/install-nix-action@v20
+    - uses: cachix/cachix-action@v12
+      with:
+        name: devenv
+    - name: Install devenv.sh
+      run: nix profile install github:cachix/devenv/latest
+    - run: devenv shell refresh-meetups
+    - uses: EndBug/add-and-commit@v9
+      with:
+        message: Sync meetups
+        committer_name: GitHub Actions
+        committer_email: actions@github.com
+
