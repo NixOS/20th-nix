@@ -17,6 +17,8 @@ jobs:
     - name: Install devenv.sh
       run: nix profile install github:cachix/devenv/latest
     - run: devenv shell refresh-meetups
+      env:
+        NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}
     - uses: EndBug/add-and-commit@v9
       with:
         message: Sync meetups
