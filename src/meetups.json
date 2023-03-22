@@ -55,13 +55,13 @@
   },
   {
     "Name": "Nix 20th - Bay Area Meetup",
-    "Country/City": "USA California, Sunnyvale",
+    "Country/City": "USA California/Sunnyvale",
     "Link": "https://www.eventbrite.com/e/nixos-20th-bay-area-meet-tickets-594999107347",
     "Date": "2023-03-24"
   },
   {
     "Name": "Netherlands Nix meetup",
-    "Country/City": "Veenendaal, Utrecht",
+    "Country/City": "Veenendaal/Utrecht",
     "Link": "https://discourse.nixos.org/t/netherlands-nix-meetup/26599",
     "Date": "2023-03-25"
   },
