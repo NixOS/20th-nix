@@ -88,5 +88,11 @@
     "Country/City": "Switzerland/Zürich",
     "Link": "https://www.meetup.com/nixos-user-group-zurich/",
     "Date": "2023-05-27"
+  },
+  {
+    "Name": "Nix @ 20: An introduction and celebration",
+    "Country/City": "Pittsburgh, Pennsylvania, United States",
+    "Link": "https://www.meetup.com/pittsburgh-code-supply/events/293592873/",
+    "Date": "2023-06-29"
   }
 ]
